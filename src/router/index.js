@@ -53,6 +53,7 @@ export const constantRouterMap = [
     path: '',
     component: Layout,
     redirect: 'dashboard',
+    alwaysShow:true,
     children: [
       {
         path: 'dashboard',
@@ -75,6 +76,7 @@ export const asyncRouterMap = [
   {
     path: '/systemManage',
     component: Layout,
+    alwaysShow:true,
     meta: { title: 'systemManage', icon: 'international',roles:'admin' },
     children: [
       {
