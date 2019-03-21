@@ -1,4 +1,4 @@
-# pandabus
+# vue-2.0 admin demo
 
 > A Vue.js project
 
